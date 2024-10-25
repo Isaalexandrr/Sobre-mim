@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+} 
+
+body{
+    color: white;
+    background-color:#F03461;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.menu ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    align-items: center;
+    padding: 18px;
+    margin-right: 100px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 35px;  
+     
+}
+
+.logo img{
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.menu-desktop{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.menu a:hover{
+    color: #FBC450;
+}
+.formulario h2{
+    text-align: center;
+    color: #FBC450;
+    margin-top: 30px;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #f796949d;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+form textarea{
+    resize: none;
+    height: 80px;
+    
+}
+
+.enviar{
+    margin-top: 20px;
+   text-align: center;
+}
+
+.enviar input{
+    width: 120px;
+    background-color: #FBC450;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+    box-shadow: 0px 0px 8px #FBC450;
+    transform: scale(1.05);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #FBC450;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #FBC450;
+
+}
+
+header img:hover{
+    box-shadow: 0px 0px 8px #FBC450;
+    transform: scale(1.05);
+}
+.center{
+    text-align: center;
+}
+h1{
+    color: #FBC450;
+    text-align: center;
+}
+
+header h2{
+    text-align: center;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+footer a{
+    text-align: center;
+    margin: 10px;
+}
+footer p{
+    margin-top: 2px;
+}
+.container{
+    padding: 0px 50px;
+}
+
